@@ -39,7 +39,8 @@ POST: (https://my.api.mockaroo.com/cars)
 }
 ```
 
-* Os campos *first_name*, *last_name*, *email* e *car_plate* serão obrigatórios o preenchimento.
+* Os campos *first_name*, *last_name*, *email* e *car_plate* serão obrigatórios o preenchimento;
+* O campo *plate* poderá apenas receber placas de veiculo, no formato AAA1234 ou AAA1A34.
 
 Para autenticação da transação é preciso usar a seguinte chave *55ad1cd0*, que pode ser passada através de um parametro (key) ou do cabeçalho (header):
 
