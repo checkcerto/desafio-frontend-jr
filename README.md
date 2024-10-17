@@ -41,7 +41,7 @@ POST: (https://my.api.mockaroo.com/cars)
 
 * Os campos *first_name*, *last_name*, *email* e *car_plate* serão obrigatórios o preenchimento.
 
-Para autenticação da transação é preciso passar a seguinte chave *55ad1cd0*, que pode ser passada atrvés de um parametro (key) ou através de um cabeçalho (header):
+Para autenticação da transação é preciso usar a seguinte chave *55ad1cd0*, que pode ser passada através de um parametro (key) ou do cabeçalho (header):
 
 Exemplos: 
 - Parametro: GET (https://my.api.mockaroo.com/cars/1?key=55ad1cd0)
